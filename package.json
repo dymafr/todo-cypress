@@ -1,0 +1,27 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "scripts": {
+    "e2e": "cypress run",
+    "test": "start-server-and-test start http://localhost:4000 e2e",
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@cypress/webpack-preprocessor": "^5.11.1",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "cypress": "^9.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "start-server-and-test": "*",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
